@@ -1,2 +1,13 @@
-# Proyecto_Algebra_PuceTec
-Se añade el proyecto de álgebra primer semestre
+# Proyecto Álgebra PUCE TEC
+
+Este proyecto fue desarrollado como parte de la materia de Álgebra Lineal. Contiene un script en Python para analizar datos de edades, realizar operaciones estadísticas, y mostrar resultados.
+
+## Archivos
+
+- `edades.py`: script principal
+
+## Autores
+
+Carlos Pazmiño
+Cristian Gomez
+Fernando San Martin
