@@ -274,8 +274,8 @@ def grafico_edad_vs_nivel(estudiantes):
 def menu():
     estudiantes = []
     while True:
-        print("\n---- SISTEMA DE CONSULTA Y ANÁLISIS DE ESTUDIANTES ----")
-        print("\n--- MENÚ PRINCIPAL ---")
+        print("\n SISTEMA DE CONSULTA Y ANÁLISIS DE ESTUDIANTES ")
+        print("\n MENÚ PRINCIPAL ")
         print("1. Ingresar nuevo estudiante")
         print("2. Mostrar estudiantes registrados")
         print("3. Buscar por rango de edad")
@@ -285,7 +285,7 @@ def menu():
         opcion = input("Seleccione una opción: ").strip()
         if opcion == "1":
             estudiantes.append(ingresar_estudiante())
-            print("\nEstudiante registrado exitosamente!")
+            print("\nEstudiante registrado exitosamente")
         elif opcion == "2":
             mostrar_estudiantes(estudiantes)
         elif opcion == "3":
@@ -295,7 +295,7 @@ def menu():
         elif opcion == "5":
             aplicar_pca(estudiantes)
         elif opcion == "6":
-            print("\nSaliendo del programa...ADIOS! ")
+            print("\nSaliendo del programa...VUELVA PRONTO! ")
             break
         else:
             print("\nOpción no válida. Intente nuevamente.") 
